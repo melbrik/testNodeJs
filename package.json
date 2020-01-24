@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watchAll",
+    "dev": "concurrently -k -n \"Typescript,Node\" -p \"[{name}]\" -c \"blue,green\" \"tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.8",
+    "concurrently": "^5.0.2",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^24.3.0"
+  },
+  "dependencies": {
+    "yargs": "^15.1.0"
+  }
+}
