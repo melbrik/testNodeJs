@@ -13,7 +13,7 @@ And
 npm install
 ```
 
-In folder testNodeJs for run app.js:
+In testNodeJs folder for run app.js:
  - run this command line for filter:
     ```bash
     node src/app.js --filter=ry
@@ -24,7 +24,7 @@ In folder testNodeJs for run app.js:
     node src/app.js --count
     ```
     
-In folder testNodeJs For run all unit test run this command line:
+In testNodeJs folder For run all unit test run this command line:
 ```bash
-jest
+npx jest
 ```
