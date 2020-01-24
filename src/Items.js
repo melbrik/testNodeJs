@@ -36,11 +36,11 @@ function count(data) {
     }
 
 
-    let countCountries = [];
+    let countries = [];
 
-    countryMap.forEach(country => countCountries.push(country));
+    countryMap.forEach(country => countries.push(country));
 
-    return countCountries;
+    return countries;
 }
 
 module.exports = {
